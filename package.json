@@ -1,0 +1,26 @@
+{
+  "name": "webshots",
+  "version": "0.0.1",
+  "description": "Takes webshots",
+  "main": "server.js",
+  "dependencies": {
+    "flatiron": "~0.3.8",
+    "nodemon": "~0.7.10",
+    "union": "~0.3.7",
+    "webshot": "~0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:myschooldirect/webshots"
+  },
+  "author": "Oliver Searle-Barnes",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/myschooldirect/webshots/issues"
+  }
+}
