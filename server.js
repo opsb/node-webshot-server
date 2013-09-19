@@ -15,10 +15,11 @@ app.router.get('/', function(request, response) {
 	  , height: 768
 	 }
   };
-  
+
   webshot(self.req.query.url, options, function(err, renderStream) {
     renderStream.pipe(self.res);
   });
 });
 
-app.start(8888);
+var port = process.env.PORT || 5000;
+app.start(port);
