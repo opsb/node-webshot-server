@@ -1,5 +1,5 @@
 {
-  "name": "webshots",
+  "name": "node-webshot-server",
   "version": "0.0.1",
   "description": "Takes webshots",
   "main": "server.js",
