@@ -20,7 +20,6 @@ function writeFileToResponse(file, response, callback){
 }
 
 function cleanupTmp(file){
-  console.log("cleaning up " + file);
   fs.unlink(file, function(err){
     if(err) console.error(err);
   });  
@@ -43,8 +42,6 @@ function convert(original, options, callback){
   } else {
     var converted = createTmpPng();
     var imageMagickArgs = [original].concat(conversion).concat(converted);
-
-    console.log(imageMagickArgs);
 
     im.convert(imageMagickArgs,
       function(err, stdout, stderr){
