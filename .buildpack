@@ -1,2 +1,3 @@
 http://github.com/heroku/heroku-buildpack-nodejs.git
 http://github.com/stomita/heroku-buildpack-phantomjs.git
+https://github.com/lemurheavy/heroku-buildpack-imagemagick#ad16e4e9b20eae
